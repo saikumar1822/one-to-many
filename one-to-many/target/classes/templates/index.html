@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>one-to-many</title>
+<link rel="stylesheet" type="text/css"
+	th:href="@{/webjars/bootstrap/css/bootstrap.min.css}" />
+</head>
+<body>
+	<div class="container text-center">
+		<div>
+			<h1>welcome</h1>
+		</div>
+		<div class="p-2"><a class="h2" th:href="@{/categories}">List categories</a></div>
+		<div class="p-2"><a class="h2" th:href="@{/categories/new}">create category</a></div>
+		<div class="p-2"><a class="h2" th:href="@{/products}">List products</a></div>
+		<div class="p-2"><a class="h2" th:href="@{/products/new}">create product</a></div>
+		<div class="p-2"><a class="h2" th:href="@{/brands}">List Brands</a></div>
+		<div class="p-2"><a class="h2" th:href="@{/brands/new}">create brand</a></div>
+		
+	</div>
+</body>
+</html>
